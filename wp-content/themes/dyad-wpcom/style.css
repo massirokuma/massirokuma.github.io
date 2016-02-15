@@ -4432,7 +4432,11 @@ object {
 	ol.comment-list ol.children .comment-body {
 		margin-left: 0;
 	}
+}
 	.comments-area-wrapper {
 	  display: none;
 	}
+div.breadcrumbs {
+    margin-left: 20px;
+    padding:5px 0 0 10px;
 }
