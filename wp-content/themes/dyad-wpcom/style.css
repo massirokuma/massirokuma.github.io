@@ -2,7 +2,7 @@
 Theme Name: Dyad
 Theme URI: https://wordpress.com/themes/dyad/
 Description: Dyad pairs your written content and images together in perfect balance. The theme is geared towards photographers, foodies, artists, and anyone who is looking for a strong photographic presence on their website.
-Version: 1.0.5
+Version: 1.0.6
 Author: Automattic
 Author URI: http://wordpress.com/themes
 License: GNU General Public License v2 or later
@@ -40,7 +40,7 @@ Text Domain: dyad
 --------------------------------------------------------------*/
 
 html {
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -159,7 +159,7 @@ code,
 kbd,
 pre,
 samp {
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: monospace, monospace;
 }
 
 button,
@@ -270,7 +270,7 @@ html {
 body {
 	background-color: #242629;
 	color: #6a6c6e;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.62;
 }
@@ -318,7 +318,7 @@ h4,
 h5,
 h6 {
 	color: #1a1c1e;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Noto Serif", Georgia, serif;
 	font-weight: 700;
 	line-height: 1.38;
 }
@@ -369,14 +369,14 @@ h4 {
 }
 
 h5 {
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.7rem;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
 }
 
 h6 {
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.5rem;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -403,7 +403,7 @@ blockquote {
 	border-left: 3px solid #ddd;
 	clear: both;
 	color: #393d41;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Noto Serif", Georgia, serif;
 	font-size: 1.05em;
 	font-style: italic;
 	margin: 0 0 1.5em 1.5em;
@@ -422,7 +422,7 @@ blockquote p:last-child {
 blockquote cite {
 	color: #444;
 	display: block;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 }
 
@@ -451,7 +451,7 @@ code,
 kbd,
 tt,
 var {
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Lucida Console", Monaco, "Courier New", monospace;
 	font-size: 90%;
 	font-style: normal;
 	font-weight: 400;
@@ -467,7 +467,7 @@ code {
 
 pre {
 	background: #eee;
-	font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 1.5rem;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
@@ -2339,6 +2339,7 @@ ol.comment-list ol.children {
 
 .comment-author .avatar-container {
 	border-radius: 70px;
+	display: block;
 	float: left;
 	height: 80px;
 	left: -100px;
@@ -4432,16 +4433,4 @@ object {
 	ol.comment-list ol.children .comment-body {
 		margin-left: 0;
 	}
-}
-	.comments-area-wrapper {
-	  display: none;
-	}
-div.breadcrumbs {
-    margin-left: 10px;
-    padding:5px 0 0 10px;
-}
-@media only screen and (max-width: 680px) { 
-  div.breadcrumbs {
-    display: none;
-  }
 }
